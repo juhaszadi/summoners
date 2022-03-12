@@ -1,0 +1,152 @@
+body {
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: 'Black Han Sans';font-size: 25px;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Black Han Sans';font-size: 50px;
+  }
+
+h2{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Black Han Sans';font-size: 30px;  
+}
+
+  p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: 'Black Han Sans';font-size: 30px;
+    
+  }
+
+.valami{
+  float: right;
+  size: auto;
+
+}
+
+  img{
+      animation: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    box-shadow: rgb(82, 82, 82);
+    
+  }
+
+  *{box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 500%;
+  max-width: 1215px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: rgb(19, 32, 145);
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(112, 217, 243);
+}
+
+.active {
+  background-color: #10d3c9;
+}
+
+.szoveg{
+    margin-left: 1500px;
+    margin-right: 50px;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 70px 0;
+  text-align: center;
+  background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_1.jpg");
+  background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  margin-top: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
